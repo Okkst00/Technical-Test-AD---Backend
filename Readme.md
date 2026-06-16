@@ -1,3 +1,31 @@
+## Cara Setup di Local (Step-by-Step)
+
+Berikut langkah-langkah untuk menjalankan project ini di local development:
+
+1. Clone Repository
+   git clone https://github.com/username/project-name.git
+   cd project-name
+
+2. Install Dependency
+   Pastikan Go sudah terinstall di device kamu, lalu jalankan:
+   go mod tidy
+
+3. Setup Environment
+   Buat file .env di root project, lalu isi sesuai konfigurasi berikut
+   LOCAL_DB=root:@tcp(127.0.0.1:3306)/shipcommerce_id?parseTime=true
+   PAYMENT_SECRET=981231231AGHHA
+
+4. Jalankan Aplikasi
+   go run main.go
+
+5. Test API
+   Default server biasanya berjalan di:
+   http://localhost:8080
+
+## Reason Choose Go
+
+Go dipilih karena kombinasi antara **performance, simplicity, concurrency, dan kemudahan deployment**, yang sangat cocok untuk backend API modern dan scalable.
+
 # Backend API (Go) - Layered Architecture
 
 Project ini dibangun menggunakan Golang dengan pendekatan **Layered Architecture** untuk menjaga codebase tetap rapi, modular, dan mudah dikembangkan.
