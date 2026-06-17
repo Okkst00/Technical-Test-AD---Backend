@@ -85,7 +85,7 @@ Client → Routes → Middleware → Handler → Service → Repository → Data
 
 ## Tujuan
 
-Menggunakan Layered Architecture agar setiap layer memiliki tanggung jawab yang jelas (Separation of Concerns), sehingga:
+Menggunakan Layered Architecture agar setiap layer memiliki tanggung jawab yang jelas (Separation of Concerns) dengan waktu pengerjaan yang terbatas, sehingga:
 
 - kode lebih mudah di-maintain
 - mudah di-scale
