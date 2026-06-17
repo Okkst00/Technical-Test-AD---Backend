@@ -96,3 +96,5 @@ Menggunakan Layered Architecture agar setiap layer memiliki tanggung jawab yang 
 - Golang
 - MySQL
 - REST API
+
+<img width="1321" height="596" alt="Techincal_Flow_Dropship" src="https://github.com/user-attachments/assets/71c205c3-3dd6-4610-9fae-01d7550eaff9" />
