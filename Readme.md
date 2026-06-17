@@ -3,7 +3,7 @@
 Berikut langkah-langkah untuk menjalankan project ini di local development:
 
 1. Clone Repository
-   git clone https://github.com/username/project-name.git
+   git clone https://github.com/Okkst00/Technical-Test-AD---Backend.git
    cd project-name
 
 2. Install Dependency
