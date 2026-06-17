@@ -114,5 +114,6 @@ Menggunakan Layered Architecture agar setiap layer memiliki tanggung jawab yang 
   -- System terima webhook callback dari payment gateway
 - Manajemen informasi ketika under stock dan gagal transaction prosess (create order, auth, manajemen produk)
 - manajemen view order antara admin dan member
+- Dashboard Analitik Member maupun Admin
 
 <img width="1321" height="596" alt="Techincal_Flow_Dropship" src="https://github.com/user-attachments/assets/71c205c3-3dd6-4610-9fae-01d7550eaff9" />
