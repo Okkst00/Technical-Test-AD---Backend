@@ -98,3 +98,21 @@ Menggunakan Layered Architecture agar setiap layer memiliki tanggung jawab yang 
 - REST API
 
 <img width="1321" height="596" alt="Techincal_Flow_Dropship" src="https://github.com/user-attachments/assets/71c205c3-3dd6-4610-9fae-01d7550eaff9" />
+
+# Fitur yang selesai
+
+- Manajemen Auth & Regist - JWT + Hash
+- Manajemen Produk (belum include search produk)
+- Membuat Pesanan
+- Manajemen Membership Benefit
+- Manajemen Webhook Confirm Sederhana -> Menggunakan Tombol
+
+# Fitur yang belum selesai
+
+- Test Race Condition
+- Indempotency
+- Webhook
+  -- Saat klik 'Bayar', random outcome: 80% success, 20% failed (untuk testing)
+  -- System terima webhook callback dari payment gateway
+- Manajemen informasi ketika under stock dan gagal transaction prosess (create order, auth, manajemen produk)
+- manajemen view order antara admin dan member
