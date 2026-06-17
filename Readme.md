@@ -30,6 +30,14 @@ Go dipilih karena kombinasi antara **performance, simplicity, concurrency, dan k
 
 Project ini dibangun menggunakan Golang dengan pendekatan **Layered Architecture** untuk menjaga codebase tetap rapi, modular, dan mudah dikembangkan.
 
+# Standard Response API, masih sempat diterapkan di api product
+
+    "success": true,
+    "message": "success",
+    "data": [
+        {}
+    ]
+
 ## Struktur Folder
 
 ├── config
